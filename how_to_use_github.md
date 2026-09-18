@@ -13,6 +13,7 @@ Verify the files:
 ```nano .gitignore```
 
 Example to add in the file:
+````bash
 # Python
 __pycache__/
 *.pyc
@@ -36,6 +37,7 @@ secrets.py
 
 # VS Code
 .vscode/
+````
 
 Never upload passwords, API tokens, SSH private keys, SNMP communities, enable secrets or other sensitive info.
 
@@ -66,7 +68,7 @@ If git doesn't know your identity, configure it:
 ```git config --global user.name "Your Name"```
 ```git config --global user.email "your-email@example.com"```
 
-Then run the commit again.
+Then run the commit again
 
 8. Name the branch main
 ```git branch -M main```
